@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PC Assembly</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body id="body">
+        <header class="header">
+            <div class="header__logo">
+                <img src="img/logo.svg" alt="logo" class="header__logo__img" />
+            </div>
+                <nav class="header__nav">
+                    <a href="#" class="header__nav__link">Главная</a>
+                    <a href="#" class="header__nav__link">Курсы</a>
+                    <a href="#" class="header__nav__link">Расписание</a>
+                    <a href="#" class="header__nav__link"
+                        >Преподаватели</a
+                    >
+                    <a href="#" class="header__nav__inner__link">Рассылка</a>
+                    <a href="#" class="header__nav__inner__link">Контакты</a>
+                </nav>
+                <button class="header__btn">Зайти в кабинет</button>
+            <div class="header__burger" id="burger-btn" onclick="openMenu()">
+                <span></span>
+            </div>
+            <div class="header__burger_menu" id="burger-menu">
+                <nav class="header__burger_menu__nav">
+                    <a href="#" class="header__burger_menu__nav__link">Главная</a>
+                    <a href="#" class="header__burger_menu__nav__link">Курсы</a>
+                    <a href="#" class="header__burger_menu__nav__link">Расписание</a>
+                    <a href="#" class="header__burger_menu__nav__link"
+                        >Преподаватели</a
+                    >
+                    <a href="#" class="header__burger_menu__nav__link">Рассылка</a>
+                    <a href="#" class="header__burger_menu__nav__link">Контакты</a>
+                    <button class="header__burger_menu__nav__link">Зайти в кабинет</button>
+                </nav>
+                
+            </div>
+        </header>
+        <article class="main">
+            <section class="main__one">
+                <div class="main__one__position">
+                    <div class="main__one__position__inner _container">
+                        <h1 class="main__one__position__inner__title">Первый курс </br> по компьютерной сборке</h1>
+                        <div class="main__one__position__inner__container_timer">
+                            <div class="main__one__position__inner__container_timer__block">
+                                <span class="main__one__position__inner__container_timer__block__title">18</span>
+                                <span class="main__one__position__inner__container_timer__block__description">Дней</span>
+                            </div>
+                            <div class="main__one__position__inner__container_timer__block">
+                                <span class="main__one__position__inner__container_timer__block__title">18</span>
+                                <span class="main__one__position__inner__container_timer__block__description">Часов</span>
+                            </div>
+                            <div class="main__one__position__inner__container_timer__block">
+                                <span class="main__one__position__inner__container_timer__block__title">18</span>
+                                <span class="main__one__position__inner__container_timer__block__description">Минут</span>
+                            </div>
+                            <div class="main__one__position__inner__container_timer__block">
+                                <span class="main__one__position__inner__container_timer__block__title">18</span>
+                                <span class="main__one__position__inner__container_timer__block__description">Секунд</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__one__position__inner__footer">
+                        <div class="main__one__position__inner__footer__inner _container">
+                            <div class="main__one__position__inner__footer__inner__btn">
+                                <button class="main__one__position__inner__footer__inner__btn__inner">Заказать курс</button>
+                            </div>
+                            <div class="main__one__position__inner__footer__inner__block_one">
+                                <div class="main__one__position__inner__footer__inner__block_one__string">
+                                    <span class="main__one__position__inner__footer__inner__block_one__string__title">Учеников всего:</span>
+                                    <span class="main__one__position__inner__footer__inner__block_one__string__value">200</span>
+                                </div>
+                                <div class="main__one__position__inner__footer__inner__block_one__string">
+                                    <span class="main__one__position__inner__footer__inner__block_one__string__title">Успешно закончили курс:</span>
+                                    <span class="main__one__position__inner__footer__inner__block_one__string__value">190</span>
+                                </div>
+                            </div>
+                            <div class="main__one__position__inner__footer__inner__block_two">
+                                <div class="main__one__position__inner__footer__inner__block_two__string">
+                                    <span class="main__one__position__inner__footer__inner__block_two__string__title">Заработано учениками:</span>
+                                    <span class="main__one__position__inner__footer__inner__block_two__string__value">400 000₽</span>
+                                </div>
+                                <div class="main__one__position__inner__footer__inner__block_two__progress_bar">
+                                    <div class="main__one__position__inner__footer__inner__block_two__progress_bar__line">
+                                        <div class="main__one__position__inner__footer__inner__block_two__progress_bar__line__inner"></div>
+                                        
+                                    </div>
+                                    <div class="main__one__position__inner__footer__inner__block_two__progress_bar__description">
+                                        <h4>0</h4>
+                                        <h4>1 000 000₽</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__two">
+                <div class="main__two__inner _container">
+                    <div class="main__two__inner__img">
+                        <img src="img/about__img.png" alt="about" draggable="false">
+                    </div>
+                    <div class="main__two__inner__text_container">
+                        <span class="main__two__inner__text_container__title">Чем мы занимаемся?</span>
+                        <p class="main__two__inner__text_container__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="main__three">
+                <div class="main__three__inner _container">
+                    <div class="main__three__inner__title">
+                        <div class="main__three__inner__title__inner">
+                            <div class="main__three__inner__title__inner__img">
+                                <img src="img/Ellipse 1.svg" alt="about" draggable="false">
+                            </div>
+                            <span class="main__three__inner__title__inner__text">Быстрый старт</span>
+                        </div>
+                        <span class="main__three__inner__title__description">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</span>
+                    </div>
+                    <div class="main__three__inner__main">
+                        <span class="main__three__inner__main__title _one_title" id="base-el">100%</span>
+                        <span class="main__three__inner__main__title _two_title" id="base-el">75%</span>
+                        <span class="main__three__inner__main__title _three_title" id="base-el">50%</span>
+                        <span class="main__three__inner__main__title _four_title" id="base-el">Итог</span>
+                        <div class="main__three__inner__main__gradient _one_gradient"></div>
+                        <div class="main__three__inner__main__gradient _two_gradient"></div>
+                        <div class="main__three__inner__main__gradient _three_gradient"></div>
+                        <div class="main__three__inner__main__gradient _four_gradient"></div>
+                        <p class="main__three__inner__main__description _one_description" id="base-el">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <p class="main__three__inner__main__description _two_description" id="base-el">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <p class="main__three__inner__main__description _three_description" id="base-el">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <p class="main__three__inner__main__description _four_description" id="base-el">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        <div class="main__three__inner__main__block_one">
+                            <span class="main__three__inner__main__block_one__title">100%</span>
+                            <p class="main__three__inner__main__block_one__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </div>
+                        <div class="main__three__inner__main__block_two">
+                            <span class="main__three__inner__main__block_two__title">75%</span>
+                            <p class="main__three__inner__main__block_two__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </div>
+                        <div class="main__three__inner__main__block_three">
+                            <span class="main__three__inner__main__block_three__title">50%</span>
+                            <p class="main__three__inner__main__block_three__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </div>
+                        <div class="main__three__inner__main__block_four">
+                            <span class="main__three__inner__main__block_four__title">Итог</span>
+                            <p class="main__three__inner__main__block_four__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__four">
+                <div class="main__four__inner _container">
+                    <span class="main__four__inner__title">Получите профессию прямо сейчас</span>
+                    <div class="main__four__inner__container">
+                        <div class="main__four__inner__container__item">
+                            <div class="main__four__inner__container__item__img">
+                                <img src="img/icon-pc.svg" alt="PC">
+                            </div>
+                            <div class="main__four__inner__container__item__title">Только практические </br> навыки в работе</div>
+                            <div class="main__four__inner__container__item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                            </div>
+                        </div>
+                        <div class="main__four__inner__container__item">
+                            <div class="main__four__inner__container__item__img">
+                                <img src="img/icon-flash.svg" alt="Flash">
+                            </div>
+                            <div class="main__four__inner__container__item__title">Работа на самом </br> современном оборудовании</div>
+                            <div class="main__four__inner__container__item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                            </div>
+                        </div>
+                        <div class="main__four__inner__container__item">
+                            <div class="main__four__inner__container__item__img">
+                                <img src="img/icon-cabel.svg" alt="Cabel">
+                            </div>
+                            <div class="main__four__inner__container__item__title">Сертификация </br> по окончании обучения</div>
+                            <div class="main__four__inner__container__item__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__five">
+                <div class="main__five__inner _container">
+                    <div class="main__five__inner__title">
+                        <div class="main__five__inner__title__img">
+                            <img src="img/Ellipse 2.svg" alt="about" draggable="false">
+                        </div>
+                        <span class="main__five__inner__title__text">Партнеры - топовые бренды</span>
+                    </div>
+                    <div class="main__five__inner__container">
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                        <div class="main__five__inner__container__item">
+                            <div class="main__five__inner__container__item__img">
+                                <img src="img/logo-brand.svg" alt="img" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__six">
+                <div class="main__six__inner">
+                    <div class="main__six__inner__title">
+                        <div class="main__six__inner__title__img">
+                            <img src="img/Ellipse 3.svg" alt="programm" draggable="false">
+                        </div>
+                        <span class="main__six__inner__title__text">Программа обучения</span>
+                        <p class="main__six__inner__title__description">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+                    </div>
+                    <div class="main__six__inner__tree">
+                        <div class="main__six__inner__tree__container">
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №1</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №3</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №5</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №7</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                        </div>
+                        <div class="main__six__inner__tree__line"></div>
+                        <div class="main__six__inner__tree__container _revers">
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №2</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №4</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                            <div class="main__six__inner__tree__container__item">
+                                <div class="main__six__inner__tree__container__item__inner">
+                                    <span class="main__six__inner__tree__container__item__inner__title">Неделя №6</span>
+                                    <span class="main__six__inner__tree__container__item__inner__description">Красивая часть курса, которая помогает в успехе</span>
+                                </div>
+                                <span class="main__six__inner__tree__container__item__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__seven">
+                <div class="main__seven__inner _container">
+                    <div class="main__seven__inner__title">
+                        <div class="main__seven__inner__title__img">
+                            <img src="img/Ellipse 4.svg" alt="Teachers" draggable="false">
+                        </div>
+                        <span class="main__seven__inner__title__text">Ваши преподаватели</span>
+                    </div>
+                    <div class="main__seven__inner__container">
+                        <div class="main__seven__inner__container__item">
+                            <div class="main__seven__inner__container__item__img">
+                                <img src="img/avatar 1.png" alt="img" draggable="false">
+                            </div>
+                            <span class="main__seven__inner__container__item__name">Дмитрий Иванов</span>
+                            <span class="main__seven__inner__container__item__description">Специалист по видеокартам</span>
+                            <button class="main__seven__inner__container__item__btn">Биография</button>
+                        </div>
+                        <div class="main__seven__inner__container__item">
+                            <div class="main__seven__inner__container__item__img">
+                                <img src="img/avatar 2.png" alt="img" draggable="false">
+                            </div>
+                            <span class="main__seven__inner__container__item__name">Дмитрий Иванов</span>
+                            <span class="main__seven__inner__container__item__description">Специалист по видеокартам</span>
+                            <button class="main__seven__inner__container__item__btn">Биография</button>
+                        </div>
+                        <div class="main__seven__inner__container__item">
+                            <div class="main__seven__inner__container__item__img">
+                                <img src="img/avatar 3.png" alt="img" draggable="false">
+                            </div>
+                            <span class="main__seven__inner__container__item__name">Дмитрий Иванов</span>
+                            <span class="main__seven__inner__container__item__description">Специалист по видеокартам</span>
+                            <button class="main__seven__inner__container__item__btn">Биография</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="main__footer">
+                <div class="main__footer__inner _container">
+                    <span class="main__footer__inner__title">Статьи каждую неделю</span>
+                    <span class="main__footer__inner__description">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</span>
+                    <form action="" method="get" class="main__footer__inner__form">
+                        <input type="email" name="" id="" placeholder="E-mail">
+                        <button type="submit">Подписаться</button>
+                    </form>
+                    <div class="main__footer__inner__container">
+                        <a href="#" class="main__footer__inner__container__img">
+                            <img src="img/vk.svg" alt="VK" draggable="false">
+                        </a>
+                        <a href="#" class="main__footer__inner__container__img">
+                            <img src="img/youtube.svg" alt="youtube" draggable="false">
+                        </a>
+                        <a href="#" class="main__footer__inner__container__img">
+                            <img src="img/facebook.svg" alt="facebook" draggable="false">
+                        </a>
+                        <a href="#" class="main__footer__inner__container__img">
+                            <img src="img/instagram.svg" alt="instagram" draggable="false">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </article>
+        <script src="app.js"></script>
+    </body>
+</html>
