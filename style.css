@@ -53,6 +53,10 @@ body {
   color: white;
   background-color: black;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 
 /*----Конец обнуления----*/
 .header {
